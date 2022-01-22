@@ -24,8 +24,7 @@ public class AccuweatherModel2 implements WeatherModel {
 
     private static final OkHttpClient okHttpClient = new OkHttpClient();
     private static final ObjectMapper objectMapper = new ObjectMapper();
-    private static final String FIVE_DAYS = null;
-
+   
     @Override
     public void getWeather(String selectedCity, Period period) throws IOException {
         switch (period) {
