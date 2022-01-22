@@ -9,12 +9,13 @@ import java.io.IOException;
 
 public class AccuweatherModel2 implements WeatherModel {
     //http://dataservice.accuweather.com/forecasts/v1/daily/1day/349727
+    //http://dataservice.accuweather.com/forecasts/v1/daily/5day/
     private static final String PROTOKOL = "https";
     private static final String BASE_HOST = "dataservice.accuweather.com";
     private static final String FORECASTS = "forecasts";
     private static final String VERSION = "v1";
     private static final String DAILY = "daily";
-    private static final String ONE_DAY = "5day";
+    private static final String FIVE_DAYS = "5day";
     private static final String API_KEY = "Y2xS6CpGmmPq96hNWujGzjmnsHxZqy8r";
     private static final String API_KEY_QUERY_PARAM = "apikey";
     private static final String LOCATIONS = "locations";
