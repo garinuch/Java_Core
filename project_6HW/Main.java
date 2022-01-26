@@ -1,4 +1,4 @@
-package project_7HW;
+package project_6HW;
 
 import java.io.IOException;
 
