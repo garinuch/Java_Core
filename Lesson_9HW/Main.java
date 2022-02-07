@@ -52,7 +52,7 @@ public class Main {
         Stream<String> citiesStream = Stream.of("Париж", "Лондон", "Мадрид", "Берлин", "Брюссель");
         citiesStream.forEach(System.out::println);
     //========================================================
-        //  Вывод всех студентов.
+//  Вывод всех студентов.
         Stream<List<Student>> res = Stream.of(studentList);
         studentList.forEach(System.out::println);
 
